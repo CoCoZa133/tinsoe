@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-box">
+
+        <form action="/" method="get">
+            <h2>Register</h2>
+            <div>
+                <label for="firstname">Firstname</label>
+                <input type="text" name="firstname" id="firstname" required placeholder="firstname">
+            </div>
+            <div>
+                <label for="lastname">Lastname</label>
+                <input type="text" name="lastname" id="lastname" required placeholder="lastname">
+            </div>
+            <div>
+                <label for="email">Emailaddress</label>
+                <input type="email" name="email" id="email" required placeholder="Email">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required placeholder="password">
+            </div>
+            <div>
+                <label for="birthday">Date of Birth</label>
+                <input type="date" name="birthday" id="birthday" required>
+            </div>
+            <h3>Gender</h3>
+            <div class="ganderBox">
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="LGBTQ+" value="LGBTQ+">
+                <label for="LGBTQ+">LGBTQ+</label>
+            </div>
+            <h3>Your favorite Language</h3>
+            <div class="favLanguagebox">
+                <input type="radio" name="favLanguage" id="python" value="python">
+                <label for="male">Python</label>
+                <input type="radio" name="favLanguage" id="css" value="css">
+                <label for="female">CSS</label>
+                <input type="radio" name="favLanguage" id="jv+" value="jv+">
+                <label for="LGBTQ+">JV+</label>
+                <input type="radio" name="favLanguage" id="html" value="html">
+                <label for="LGBTQ+">HTML</label>
+            </div>
+            <div>
+                <button type="submit" name="SurveySubmitButton" id="SurveySubmitButton">Submit</button>
+            </div>
+            <div>
+                <p>If you have acc.Login <a href="login.html" target="_blank">here</a> </p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
