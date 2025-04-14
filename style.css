@@ -1,64 +1,20 @@
-body {
-    background-image: -webkit-image-set(url(https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161363.jpg));
-    background-size: 100%;
-    font-family: sans-serif;
-    font-size: 16px;
-}
-
-.container-box {
-    width: 360px;
-    height: 100%;
-    margin: auto;
-    color: darkblue;
-    background-color: black;
-    border-radius: 13px;
-}
-
-h2 {
-    text-align: center;
-    padding-top: 25px;
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-size: 30px;
-    padding-bottom: 25px;
-    border: none;
-}
-
-form {
-    width: 300px;
-    margin-left: 25px;
-}
-
-form input {
-    display: flex;
-}
-
-button {
-    text-align: center;
-    background-color: darkblue;
-    border: 1px solid gray;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
-    color: white;
-    width: 150px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: blue;
-}
-
-a {
-    color: darkred;
-}
-
-a:hover {
     color: red;
+    text-shadow: 0 0 9px blue,
+        0 0 7px #fff,
+        0 0 10px #fff;
 }
 
-.ganderBox {
-    display: flex;
+body {
+    background-color: aqua;
 }
 
-.favLanguagebox {
-    display: flex;
+.tenor-gif-embed {
+    max-width: 500px;
+
 }
